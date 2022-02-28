@@ -14,7 +14,7 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - uses: catalystsquad/action-release-action@main
+      - uses: catalystsquad/action-release-action@v1
         with:
           token: ${{ secrets.AUTOMATION_PAT }}
           release-config: ${{ secrets.JS_ACTION_RELEASE_CONFIG }}
