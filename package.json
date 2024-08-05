@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catalystsquad/action-branch-protection-bot.git"
+    "url": "git+https://github.com/catalystcommunity/action-branch-protection-bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/catalystsquad/action-branch-protection-bot/issues"
+    "url": "https://github.com/catalystcommunity/action-branch-protection-bot/issues"
   },
-  "homepage": "https://github.com/catalystsquad/action-branch-protection-bot#readme",
+  "homepage": "https://github.com/catalystcommunity/action-branch-protection-bot#readme",
   "dependencies": {
     "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.0",

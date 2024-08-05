@@ -13,7 +13,7 @@ An action to modify branch protection settings
 <!-- start usage -->
 
 ```yaml
-- uses: catalystsquad/action-branch-protection-bot@undefined
+- uses: catalystcommunity/action-branch-protection-bot@undefined
   with:
     # Github token to use
     token: ""
@@ -70,7 +70,7 @@ on: [push]
 
 jobs:
   - name: Disable include admins setting
-    uses: catalystsquad/action-branch-protection-bot@init
+    uses: catalystcommunity/action-branch-protection-bot@init
     with:
       token: ${{ secrets.AUTOMATION_PAT }}
       include-admins: false
@@ -78,7 +78,7 @@ jobs:
     run: |
       do your stuff here
   - name: Always re-enable include admins setting
-    uses: catalystsquad/action-branch-protection-bot@init
+    uses: catalystcommunity/action-branch-protection-bot@init
     with:
       token: ${{ secrets.AUTOMATION_PAT }}
       include-admins: true
